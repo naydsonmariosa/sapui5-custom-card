@@ -1,0 +1,20 @@
+<mvc:View controllerName="naydsonmariosa.CustomCard.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:c="naydsonmariosa.CustomCard.components">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<HBox>
+							<!-- Card with custom values: no properties set -->
+							<c:Card id="card1" title="Card 1" class="sapUiTinyMargin"></c:Card>
+							<!-- Cards with custom backbrounds and images sets -->
+							<c:Card id="card2" backgroundColor="#5bc0de" title="Card 2" class="sapUiTinyMargin" image="https://picsum.photos/200" press="onPress"></c:Card>
+							<c:Card id="card3" backgroundColor="#5cb85c" title="Card 3" class="sapUiTinyMargin" image="https://picsum.photos/200" press="onPress"></c:Card>
+							<c:Card id="card4" backgroundColor="#f9f9f9" title="Card 4" class="sapUiTinyMargin" image="https://picsum.photos/200" press="onPress"></c:Card>							
+						</HBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
