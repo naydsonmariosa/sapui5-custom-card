@@ -5,6 +5,7 @@ This is a simple component that display a custom "card" component to a sapUI5 pr
   - Build simple card on ui5 app
   - Custom image display (URL or local)
   - Change background colors and custom title
+  - Show a hover effect
 
 ### Tech
 
@@ -15,6 +16,9 @@ Totally build with JS on sapui5 controller (see component folder)
 sapui5-custom-card requires [ui5] project to run.
 
 Install a new project ui5 or copy Card.js and style.css to your project
+
+
+![image](https://user-images.githubusercontent.com/12967090/94025522-f83aae00-fd8e-11ea-8420-99d0836e6b20.png)
 
 
 **Free Software, Hell Yeah!**
