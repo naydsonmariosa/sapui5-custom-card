@@ -11,6 +11,24 @@ This is a simple component that display a custom "card" component to a sapUI5 pr
 
 Totally build with JS on sapui5 controller (see component folder)
 
+### First Properties available
+
+```sh
+  press="YOUR_CONTROLLER_FUNCTION"
+``` 
+
+```sh
+  image="URL OR LOCAL IMAGE"
+``` 
+
+```sh
+  title="TITLE DISPLAYED ON CARD"
+``` 
+
+```sh
+  backgroundColor="BACKGROUND COLOR"
+``` 
+
 ### Installation
 
 sapui5-custom-card requires [ui5] project to run.
